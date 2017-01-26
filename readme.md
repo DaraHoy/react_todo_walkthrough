@@ -43,6 +43,7 @@ Before we can checkout the react todo app, we need to grab up our backend that w
 ```bash
 $ git clone git@github.com:ga-wdi-exercises/react-todo-api.git
 $ cd react-todo-api
+$ Bundle install
 $ bundle exec rake db:create
 $ bundle exec rake db:migrate
 $ bundle exec rake db:seed
