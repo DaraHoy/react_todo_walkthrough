@@ -41,7 +41,7 @@ Because the same input will always produce the same output, components are easil
 Before we can checkout the react todo app, we need to grab up our backend that will serve up our todos:
 
 ```bash
-$ git clone git@github.com:ga-wdi-exercises/react-todo-api.git
+$ git clone git@github.com:ga-wdi-pvd/react-todo-api.git
 $ cd react-todo-api
 $ Bundle install
 $ bundle exec rake db:create
@@ -55,7 +55,7 @@ $ rails s -p 4000
 Now lets grab the react todo app:
 
 ```bash
-$ git clone git@github.com:ga-wdi-exercises/react-todo.git
+$ git clone git@github.com:ga-wdi-pvd/react-todo.git
 $ npm install
 $ npm start
 ```
